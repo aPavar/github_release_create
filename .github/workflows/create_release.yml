@@ -24,7 +24,7 @@ jobs:
         id: gitversion
         uses: gittools/actions/gitversion/execute@v0
         with:
-          useConfigFile: true
+          useConfigFile: false
 
       - name: Step 4 - Create Release
         id: create_release
